@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CRUD_Carvajal</name>
+    </assembly>
+    <members>
+        <member name="M:CRUD_Carvajal.Controllers.VuelosController.GetVuelos">
+            <summary>
+            Lista de todos los registros de vuelo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CRUD_Carvajal.Controllers.VuelosController.PutVuelos(System.Int32,CRUD_PeriferiaIT.Models.Vuelos)">
+            <summary>
+            Crear un registro nuevo de vuelo
+            </summary>
+            <param name="id"></param>
+            <param name="vuelos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRUD_Carvajal.Controllers.VuelosController.PostVuelos(CRUD_PeriferiaIT.Models.Vuelos)">
+            <summary>
+            Actualizar registro de vuelo
+            </summary>
+            <param name="vuelos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CRUD_Carvajal.Controllers.VuelosController.DeleteVuelos(System.Int32)">
+            <summary>
+            Eliminar registro de vuelo
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
